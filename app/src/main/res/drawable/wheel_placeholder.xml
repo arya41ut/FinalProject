@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Slice 1 - Red -->
+    <path
+        android:fillColor="#FFCDD2"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M100,100 L100,10 A90,90 0 0,1 148,24 z" />
+
+    <!-- Slice 2 - Orange -->
+    <path
+        android:fillColor="#FFECB3"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M100,100 L148,24 A90,90 0 0,1 190,100 z" />
+
+    <!-- Slice 3 - Yellow -->
+    <path
+        android:fillColor="#FFF9C4"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M100,100 L190,100 A90,90 0 0,1 148,176 z" />
+
+    <!-- Slice 4 - Green -->
+    <path
+        android:fillColor="#C8E6C9"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M100,100 L148,176 A90,90 0 0,1 100,190 z" />
+
+    <!-- Slice 5 - Blue -->
+    <path
+        android:fillColor="#BBDEFB"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M100,100 L100,190 A90,90 0 0,1 52,176 z" />
+
+    <!-- Slice 6 - Indigo -->
+    <path
+        android:fillColor="#D1C4E9"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M100,100 L52,176 A90,90 0 0,1 10,100 z" />
+
+    <!-- Slice 7 - Purple -->
+    <path
+        android:fillColor="#E1BEE7"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M100,100 L10,100 A90,90 0 0,1 52,24 z" />
+
+    <!-- Slice 8 - Pink -->
+    <path
+        android:fillColor="#F8BBD0"
+        android:strokeColor="#000000"
+        android:strokeWidth="1"
+        android:pathData="M100,100 L52,24 A90,90 0 0,1 100,10 z" />
+    
+    <!-- Outer circle for clean look -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="3"
+        android:fillColor="#00000000"
+        android:pathData="M100,100 m-90,0 a90,90 0 1,0 180,0 a90,90 0 1,0 -180,0" />
+
+    <!-- Spokes for the wheel -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M100,100 L100,10" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M100,100 L148,24" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M100,100 L190,100" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M100,100 L148,176" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M100,100 L100,190" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M100,100 L52,176" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M100,100 L10,100" />
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:pathData="M100,100 L52,24" />
+
+    <!-- Center dot -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M100,100 m-8,0 a8,8 0 1,0 16,0 a8,8 0 1,0 -16,0" />
+</vector> 
